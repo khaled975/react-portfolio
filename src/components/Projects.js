@@ -1,5 +1,5 @@
 import {React} from "react";
-import {Nav,Tab} from "react-bootstrap";
+import {Col, Nav,Tab,Row} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 import Contact from "./Contact"
@@ -8,6 +8,12 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 function Projects(){
     return(
         <section className="projects-sec" id="projects">
+                <Row>
+                    <Col className="heading-sec">
+                        <h1>Projects</h1>
+                        <p>You Can See My Works Here</p>
+                    </Col>
+                </Row>
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                     <Nav variant="pills" className="projects-tabs">
                         <Nav.Item>

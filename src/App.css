@@ -170,8 +170,11 @@ body{
   font-size: 28px;
 }
 .landing-sec .container h1{
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 1.5px;
+}
+.landing-sec .moving-text {
+  font-size: 35px;
 }
 .landing-sec .container .desc{
   color:#8b8b8b;
@@ -201,6 +204,7 @@ body{
   margin-left: 8px;
   border-radius: 50%;
   border: 1.5px solid white;
+  transition: 0.3s;
 }
 .landing-sec .contact-btn:hover{
   transform: translateX(10px);
@@ -253,6 +257,11 @@ body{
 }
 .projects-sec h1 ,p{
   text-align: center;
+}
+.projects-sec .heading-sec p{
+    color: #B8b8b8;
+    font-size: 18px;
+    letter-spacing: 1.5px;
 }
 .projects-sec .nav{
   width: 80%;
@@ -440,7 +449,7 @@ body{
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
-  padding: 85px 125px;
+  padding: 85px 20px;
   margin-bottom: 80px;
   margin-top: calc(-245.2px / 2);
 }
@@ -458,6 +467,7 @@ body{
   z-index: 0;
   display: flex;
   align-items: center;
+  margin-top: 15px;
 }
 .email-box::before {
   content: "";
