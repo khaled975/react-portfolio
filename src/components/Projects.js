@@ -48,9 +48,9 @@ function Projects(){
                                 </Routes>
                                 <Routes>
                                     <Route path="/" element={<Contact/>}/>
-                                    hi
                                 </Routes>
                             </BrowserRouter>
+                                    hi
                         </Tab.Pane>
                     </Tab.Content>
                 </Tab.Container>
