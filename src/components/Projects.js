@@ -1,5 +1,5 @@
 import {React} from "react";
-import {Col, Nav,Tab,Row} from "react-bootstrap";
+import {Col, Nav,Tab,Row, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 import { Link , NavLink, Outlet} from "react-router-dom";
@@ -9,6 +9,8 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 function Projects(){
     return(
         <section className="projects-sec" id="projects">
+            <Container>
+
                 <Row>
                     <Col className="heading-sec">
                         <h1>Projects</h1>
@@ -29,6 +31,7 @@ function Projects(){
                     </Nav>
                     <Outlet/>
                 </Tab.Container>
+            </Container>
         </section>
     )
 }
