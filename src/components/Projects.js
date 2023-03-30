@@ -32,14 +32,14 @@ function Projects(){
                                 <Routes>
                                     <Route path="/" element={<Works/>}/>
                                 </Routes>
-                            </BrowserRouter>                        </Tab.Pane>
+                            </BrowserRouter> 
+                       </Tab.Pane>
                         <Tab.Pane eventKey="second" className="second-tab">
                             <BrowserRouter>
                                 <Routes>
                                     <Route path="/" element={<Contact/>}/>
                                 </Routes>
                             </BrowserRouter>
-                                         {/* <Contact/> */}
                         </Tab.Pane>
                         <Tab.Pane eventKey="third">
                             <BrowserRouter>
@@ -48,6 +48,7 @@ function Projects(){
                                 </Routes>
                                 <Routes>
                                     <Route path="/" element={<Contact/>}/>
+                                    hi
                                 </Routes>
                             </BrowserRouter>
                         </Tab.Pane>
