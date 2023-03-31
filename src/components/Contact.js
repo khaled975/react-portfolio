@@ -2,10 +2,14 @@ import {React} from "react";
 import {Container,Row,Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
+import 'animate.css';
 import contact from "../imgs/contact-img.svg"
+import TrackVisibility from "react-on-screen";
 function Contact(){
     return(
-        <section className="contact-sec">
+        <TrackVisibility>
+        {({isVisible})=>
+        <section className={isVisible?"contact-sec animate__animated animate__fadeInUp":"contact-sec"}>
             <Container>
                 <Row className="contact-bx">
                     <Col md={6} sm={12}>
@@ -39,7 +43,8 @@ function Contact(){
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section>}
+        </TrackVisibility>
     )
 }
 export default Contact

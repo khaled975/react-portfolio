@@ -31,7 +31,7 @@ function Header(){
                     </Nav>
                     <div className="icons">
                         <div className="header-icon">
-                            <a href="#"><span><FontAwesomeIcon icon={faLinkedinIn}/></span></a>
+                            <a href="https://www.linkedin.com/in/khaled-abd-el-mohsen-aa7985270/" target="_blank"><span><FontAwesomeIcon icon={faLinkedinIn}/></span></a>
                             <a href="#"><span><FontAwesomeIcon icon={faFacebookF}/></span></a>
                             <a href="#"><span><FontAwesomeIcon icon={faInstagram}/></span></a>
                         </div>

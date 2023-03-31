@@ -5,7 +5,6 @@ import '../App.css'
 import project1 from "../imgs/project-img1.png"
 import project2 from "../imgs/project-img2.png"
 import project3 from "../imgs/project-img3.png"
-// import contact from "../imgs/contact-img.svg"
 function Works(){
     const projectsData=[
         {

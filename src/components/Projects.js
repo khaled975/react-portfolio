@@ -3,9 +3,6 @@ import {Col, Nav,Tab,Row, Container} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css'
 import { Link , NavLink, Outlet} from "react-router-dom";
-import Contact from "./Contact"
-import Works from "./Works"
-import { BrowserRouter,Routes,Route } from "react-router-dom";
 function Projects(){
     return(
         <section className="projects-sec" id="projects">
@@ -20,13 +17,13 @@ function Projects(){
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                     <Nav variant="pills" className="projects-tabs">
                         <Nav.Item>
-                            <Nav.Link><NavLink to="/">Tab 1</NavLink></Nav.Link>
+                            <Nav.Link><NavLink to="">Tab 1</NavLink></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link><Link to="contact">Tab 2</Link></Nav.Link>
+                            <Nav.Link><Link to="react-portfolio/contact">Tab 2</Link></Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link><Link to="desc">Tab 3</Link></Nav.Link>
+                            <Nav.Link><Link to="react-portfolio/desc">Tab 3</Link></Nav.Link>
                         </Nav.Item>
                     </Nav>
                     <Outlet/>

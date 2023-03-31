@@ -11,8 +11,10 @@ function Landing(){
             <Container>
                 <Row className='landing-text'>
                     <Col xs={12} md={6} xl={7} >
-                        <h3>Welcome All In My Portfolio</h3>
-                        <h1>Hi! I'm Khaled Abd El-Mohsen,</h1>
+                        <TrackVisibility>
+                            <h3>Welcome All In My Portfolio</h3>
+                            <h1 className="animate__animated animate__fadeInLeft">Hi! I'm Khaled Abd El-Mohsen,</h1>
+                        </TrackVisibility>
                         <h2 className='moving-text'>
                             <Typewriter 
                                 options={{
@@ -29,14 +31,17 @@ function Landing(){
                         </div>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <Figure>
-                            <Figure.Image
-                                width="max-width"
-                                // height={180}
-                                alt="171x180"
-                                src={landing}
-                                />
-                        </Figure>
+                        <TrackVisibility>
+                                <Figure>
+                                    <Figure.Image
+                                        width="max-width"
+                                        // height={180}
+                                        alt="171x180"
+                                        src={landing}
+                                        className="animate__animated animate__fadeInDown"
+                                        />
+                                </Figure>
+                        </TrackVisibility>
                     </Col>
                 </Row>
             </Container>

@@ -59,7 +59,6 @@ function Skills(){
                     </Col>
                 </Row>
             </Container>
-            {/* <img src={skillsColor} alt="img" className="sec-bg"/> */}
         </section>
     )
 }

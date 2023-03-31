@@ -5,7 +5,6 @@ import '../App.css'
 function Subscribe(){
     return(
         <section className="subscribe-sec">
-            {/* <Container> */}
                 <Row className="sub-box">
                     <Col md={6} sm={12}>
                         <h3>
@@ -19,7 +18,6 @@ function Subscribe(){
                         </div>
                     </Col>
                 </Row>
-            {/* </Container>     */}
         </section>
     )
 }
