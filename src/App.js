@@ -35,7 +35,7 @@ function App() {
           <Skills/>
           <Projects/>
           <Routes>
-              <Route path="/" element={<Works/>}/>
+              <Route path="*" element={<Works/>}/>
               <Route path="/contact" element={<Contact/>}/>
               <Route path="/desc" element={<><p className='desc'>Contact With Me</p> <Contact/></>}/>
           </Routes>
