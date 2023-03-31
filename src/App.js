@@ -36,8 +36,8 @@ function App() {
           <Projects/>
           <Routes>
               <Route path="/" element={<Works/>}/>
-              <Route path="/react-portfolio/contact" element={<Contact/>}/>
-              <Route path="/react-portfolio/desc" element={<><p className='desc'>Contact With Me</p> <Contact/></>}/>
+              <Route path="/contact" element={<Contact/>}/>
+              <Route path="/desc" element={<><p className='desc'>Contact With Me</p> <Contact/></>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>
